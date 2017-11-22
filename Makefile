@@ -11,7 +11,7 @@ doctests:
 
 deps:
 	@pip install curdling
-	@curd install -r requirements-dev.txt
+	@curd install -i https://pypi.python.org/simple/ -r requirements-dev.txt
 
 unit: clean
 	@echo "Running unit tests"
